@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD;
+    --cor-hover: #272727;
+
+    --fonte-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.marcacao {
+    color: var(--cor-terciaria);
+}
+
+span{
+    color: var(--cor-terciaria);
+}
+
+.titulo-destaque {
+    color: var(--cor-terciaria);
+}
+
+.apresentacao {
+    padding: 3.3% 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_about {
+    padding: 2% 15%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao_conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.apresentacao_titulo {
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+}
+
+.apresentacao_paragrafo {
+    font-size: 24px;
+    font-family: var(--font-secundaria);
+}
+
+.divisao {
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.redes {
+    font-size: 24px;
+    font-weight: 400;
+    font-family: var(--fonte-primaria);
+}
+
+.botao {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    width: 378px;
+    border-radius: 8px;
+    padding: 21.5px 0;
+    border: 2px solid var(--cor-terciaria);
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+.botao:hover {
+    background-color: var(--cor-hover);
+}
+
+.rodape {
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    padding: 12px;
+    text-align: center;
+}
+
+.cabecalho {
+    padding: 2% 0 0 15%;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+
+}
+
+.menu_cabecalho {
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+

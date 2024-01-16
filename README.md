@@ -1,2 +1,2 @@
 # My-First-Website
-My first application with CSS and HTML
+This is my first application with HTML and CSS so I don't know really well what I'm doing. So, yeah.

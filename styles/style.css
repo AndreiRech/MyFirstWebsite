@@ -53,11 +53,19 @@ span{
 .apresentacao_titulo {
     font-size: 2.25rem;
     font-family: var(--fonte-primaria);
+    text-align: center;
 }
 
 .apresentacao_paragrafo {
     font-size: 1.5rem;
     font-family: var(--font-secundaria);
+    text-align: center;
+}
+
+.apresentacao_paragrafo-itens {
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria);
+    padding: 10px;
 }
 
 .divisao {
